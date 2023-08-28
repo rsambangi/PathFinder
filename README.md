@@ -1,6 +1,6 @@
 # PathFinder
 
-Path Finder is a Java program made to generate the optimal route between state capitals using Dijkstra's Shortest Path Algorithm. The application's backend uses a pre-loaded dot file to generate a graph structure, which the user can then select two states to travel between and optionally input a range of distances. The JavaFX frontend then outputs the generated path at the click of a button.
+PathFinder is a Java program made to generate the optimal route between state capitals using Dijkstra's Shortest Path Algorithm. The application's backend uses a pre-loaded dot file to generate a graph structure, which the user can then select two states to travel between and optionally input a range of distances. The JavaFX frontend then outputs the generated path at the click of a button.
 
 # What I Learned
 
