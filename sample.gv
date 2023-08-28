@@ -1,0 +1,22 @@
+digraph G {
+    Illinois [label="Springfield"];
+    Michigan [label="Lansing"];
+    Indiana [label="Indianapolis"];
+    Oregon [label="Salem"];
+    Ohio [label="Columbus"];
+    Pennsylvania [label="Harrisburg"];
+    Maryland [label="Annapolis"];
+    Wisconsin [label="Madison"];
+
+    Madison -> Springfield [label="2"];
+    Madison -> Lansing [label="4"];
+    Springfield -> Indianapolis [label="5"];
+    Lansing -> Indianapolis [label="1"];
+    Lansing -> Salem [label="10"];
+    Madison -> Salem [label="15"];
+    Indianapolis -> Salem [label="3"];
+    Indianapolis -> Columbus [label="0"];
+    Columbus -> Indianapolis [label="2"];
+    Columbus -> Annapolis [label="4"];
+    Harrisburg -> Annapolis [label="4"];
+}
